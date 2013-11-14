@@ -4,20 +4,20 @@
  * Opens a new window with window.open().
  *
  * ```html
- * <button nag-new-window="http://www.example/com">new window</button>
+ * <button nag-new-window="https://www.example.com/">new window</button>
  * ```
  *
- * If you need to be able to access the new window whether through javascript or for testing, you can pass the window-name attribute.
+ * If you need to be able to access the new window whether through javascript or for testing, you can pass the data-window-name attribute.
  *
  * ```html
- * <button nag-new-window="http://www.example/com" window-name="my-window">new window</button>
+ * <button nag-new-window="https://www.example.com/" data-window-name="my-window">new window</button>
  * ```
  *
  * @module nag.newWindow
  * @ngdirective nagNewWindow
  *
  * @nghtmlattribute {string} nag-new-window The url of where the new window should go
- * @nghtmlattribute {string} [window-name] The name of the window that case be used to access it through javascript
+ * @nghtmlattribute {string} [data-window-name] The name of the window that case be used to access it through javascript
  */
 angular.module('nag.newWindow', [])
 .directive('nagNewWindow', [
