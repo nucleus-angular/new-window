@@ -19,7 +19,7 @@
  * @nghtmlattribute {string} nag-new-window The url of where the new window should go
  * @nghtmlattribute {string} [data-window-name] The name of the window that case be used to access it through javascript
  */
-angular.module('nag.newWindow', [])
+angular.module('nag.newWindow')
 .directive('nagNewWindow', [
   function() {
     return {
