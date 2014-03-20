@@ -6,7 +6,7 @@ module.exports = {
     .wait(500)
     .click('[data-ut="with-name"]')
     .toWindow('new-window')
-    .wait(500)
+    .wait(2000)
       .assert.url('https://www.google.com/', 'new window opened')
     .toParentWindow()
     .done();

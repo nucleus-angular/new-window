@@ -2,6 +2,7 @@
   "tests": [
     "dalek/new-window.js"
   ],
+  "logLevel": "1",
   "browser": [
     "chrome"
   ]
